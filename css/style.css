@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.big-header {
+    background-color: rgb(83, 163, 209);
+    padding: 0 150px;
+}
+
+.header {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+.header-logo > img {
+    width: 30px;
+    height: 30px;
+}
+
+.header-text {
+    font-weight: 700;
+}
+/* banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+    padding-bottom: 20px;
+}
+
+.intro {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+ h2 {
+    margin: 0;
+ }
+
+.intro > button {
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    color: white;
+    border-color: rgb(153, 204, 236);
+    background-color: rgb(83, 169, 254);
+    border-radius: 10px;
+}
+
+.intro-detail {
+    font-size: 15;
+}
+
+.intro-pic {
+    flex: 1;
+    width: 80px;
+}
+
+.main {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.albums {
+    display: flex;
+    gap: 20px;
+}
+
+.albums img {
+    flex: 1;
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(72, 124, 221);
+    border-radius: 5px;
+ }
+
+.album-name {
+    font-size: 12px;
+}
+
+.quotation {
+    margin-top: 60px;
+    height: 80px;
+    padding: 40px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(235, 234, 234);
+}
+
+.quotation-text {
+    font-size: 15px;
+    color: grey;
+}
+
+.quotation-name {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.slogin-info {
+    margin: 40px 100px;
+    padding: 20px 40px;
+    background-color: rgb(57, 139, 233);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+ .slogan {
+    font-weight: bold;
+ }
+ 
+ .right > button {
+    background-color: rgb(88, 168, 230);
+    color: white;
+    border: rgb(229, 229, 224);
+    border-radius: 2px;
+    padding: 2px 8px;
+ }
+ 
+
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(83, 163, 209);
+    margin: 0px;
+    padding: 20px 150px 150px 0;
+}
