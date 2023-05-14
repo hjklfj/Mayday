@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
 }
@@ -34,7 +35,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-
+    flex-wrap: wrap;
     padding-bottom: 20px;
 }
 
@@ -51,7 +52,7 @@ body {
 
 .intro > button {
     width: 100px;
-    height: 30px;
+    height: 50px;
     font-weight: bold;
     color: white;
     border-color: rgb(153, 204, 236);
@@ -65,7 +66,7 @@ body {
 
 .intro-pic {
     flex: 1;
-    width: 80px;
+    max-width: 400px;
 }
 
 .main {
@@ -79,14 +80,19 @@ body {
 .albums {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.album {
+    flex: 1;
 }
 
 .albums img {
-    flex: 1;
-    width: 150px;
-    height: 150px;
     border: 2px solid rgb(72, 124, 221);
     border-radius: 5px;
+    width: 300px;
+    height: 300px;
  }
 
 .album-name {
@@ -150,5 +156,6 @@ body {
     color: white;
     background-color: rgb(83, 163, 209);
     margin: 0px;
-    padding: 20px 150px 150px 0;
+    padding: 20px 150px 0 150px;
+    height: 40px;
 }
